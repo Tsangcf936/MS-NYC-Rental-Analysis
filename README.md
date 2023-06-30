@@ -7,8 +7,9 @@ In this project, we are going to analyze the short-term rentals data in New York
 
 Datasets
 
-Data are collected from both internal and public sources on rental listings in New York City
+Data are collected from both internal and public sources on rental listings in New York City. Pillow stores its data in a PostgreSQL database with three main tables:
+    Prices (price in dollars, name of neighborhood, GPS coordinates)
+    Reviews (host name, number of reviews, number of listings per host, Number of days booked)
+    Room Types (room type, description)
 
-GloBox stores its data in a database with three main tables: Users (user demographic data): id, country, gender. Groups (user A/B test group assignment): uid, group, join_dt, device. Activity (user purchase activity): uid, dt, device, spent.
-
-The task at hand is to analyze the results of the A/B test and provide a recommendation to the stakeholders about whether GloBox should launch the experience to all users.
+The task is to analyze the rental data to come up with insights and recommendataions to those internal teams that are responsible for managing growth and success in the NYC market.
